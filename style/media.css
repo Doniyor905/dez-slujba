@@ -30,7 +30,8 @@
 
 @media(max-width:1047px) {
     .hover {
-        width: 250px;
+        width: 288px;
+        height: 327px;
     }
 
     .service__inner {
@@ -297,15 +298,16 @@
     .usluga__content {
         width: 100%;
     }
+
     .faq__item-title {
         font-size: 16px;
     }
 
     .faq__icon {
-        margin-left:30px;
+        margin-left: 30px;
     }
 
-    .faq__title  {
+    .faq__title {
         font-size: 30px;
     }
 }
@@ -313,6 +315,10 @@
 @media(max-width:580px) {
     .intro__bg2 .container .intro__title {
         height: 270px;
+    }
+    .modal {
+        height: 545px;
+        margin: 0px 10px;
     }
 }
 
@@ -337,14 +343,20 @@
 }
 
 @media(max-width:499px) {
+
+    .modal__text {
+        font-size: 13px;
+    }
     .accordion__title {
         font-size: 17px;
     }
+
     .faq__title {
         font-size: 26px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .intro__title {
         width: 100%;
         height: 159px;
@@ -365,6 +377,15 @@
 
     .technolgy__item-text {
         font-size: 16px;
+    }
+
+    .modal__title {
+        font-size: 27px;
+    }
+
+    .modal__close {
+        top: 27px;
+        right: 21px;
     }
 
 }
@@ -410,9 +431,11 @@
     .counter__number {
         font-size: 70px;
     }
+
     .faq__title {
         font-size: 20px;
     }
+
     .intro__bg2 .container .intro__title {
         font-size: 35px;
     }
